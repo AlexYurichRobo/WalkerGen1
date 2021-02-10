@@ -5,7 +5,7 @@
 Процесс разработки движений робота описан на канале, в плейлите, ему посвященном:
 
 
-[![Сборка робота](https://www.youtube.com/watch?v=vLxFxW2TRR0&list=PLPlEq5SS8JN62263Q4-hY7qEeuCIrCNkc&index=3)](https://www.youtube.com/watch?v=vLxFxW2TRR0&list=PLPlEq5SS8JN62263Q4-hY7qEeuCIrCNkc&index=3)
+[![Сборка робота](https://sun9-29.userapi.com/impg/weG9ZLaRDRPLj1wx-14dwFZdoW_zb94o8bGiBQ/HYM6C9fTb_c.jpg?size=2560x1920&quality=96&proxy=1&sign=099709e6688fc18dbf858e1c27c8da13&type=album)](https://www.youtube.com/watch?v=vLxFxW2TRR0&list=PLPlEq5SS8JN62263Q4-hY7qEeuCIrCNkc&index=3)
 
 Рассмотрим основные базовые движения робота.
 
