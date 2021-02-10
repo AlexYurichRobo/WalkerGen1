@@ -2,6 +2,11 @@
 
 ## Базовые функции для движения робота
 
+Процесс разработки движений робота описан на канале, в плейлите, ему посвященном:
+
+
+[![Сборка робота](https://www.youtube.com/watch?v=vLxFxW2TRR0&list=PLPlEq5SS8JN62263Q4-hY7qEeuCIrCNkc&index=3)](https://www.youtube.com/watch?v=vLxFxW2TRR0&list=PLPlEq5SS8JN62263Q4-hY7qEeuCIrCNkc&index=3)
+
 Рассмотрим основные базовые движения робота.
 
 Объявление переменных и объектов класса Servo. Сюдаже вносим полученные углы, полученные в процессе калибровки на предыдущем [этапе](https://github.com/AlexYurichRobo/WalkerServoTest):
