@@ -4,20 +4,19 @@
 
 Рассмотрим основные базовые движения робота.
 
-Объявление переменных
+Объявление переменных иобъектов класса Servo
 
 ```C++
+  #include <Servo.h>
+  //параметры сервопривода
+  const int servos = 4;// количество сервоприводов в механизме
+  // сюда записываем полученные показатели среднего положения сервоприводов
+  const int servoCenterConst[servos] = {87, 89, 86, 82};
+  int servoAngle[servos];
+  Servo servoLegs[servos];
+```
 
-#include <Servo.h>
-
-//переменные для чтения информации из монитора порта
-String strData = "";
-boolean recievedFlag;
-int intVar;
-
-//параметры сервопривода
-const int servos = 4;// количество сервоприводов в механизме
-
+```C++
 //переменные для углов горизонтальных осей робота
 int angleHor = 90;
 int devAngHor = 35;
@@ -31,10 +30,7 @@ int angMinVer = angleVer - devAngVer;
 int angMaxVer = angleVer + devAngVer;
 
 //параметры сервоприводов
-// сюда записываем полученные показатели среднего положения сервоприводов
-const int servoCenterConst[servos] = {87, 89, 86, 82};
-int servoAngle[servos];
-Servo servoLegs[servos];
+
 int rate = 5;
 int delayTime = 100;
 bool debug = true;
